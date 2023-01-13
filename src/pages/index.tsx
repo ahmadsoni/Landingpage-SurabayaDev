@@ -12,26 +12,20 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Surabaya Dev</title>
-				<meta
-					name='description'
-					content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.'
-				/>
+				<meta name='title' content='Surabaya Dev'/>
+				<meta name='description' content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.' />
 				<link rel='icon' href='/favicon.ico' />
 
-				<meta
-					property='og:url'
-					content='https://travel-agent-lovat.vercel.app/'
-				/>
 				<meta property='og:type' content='website' />
-				<meta property='og:title' content='SurabayaDev' />
-				<meta
-					property='og:description'
-					content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya dan sebagainya'
-				/>
-				<meta
-					property='og:image'
-					content='https://travel-agent-lovat.vercel.app/aplikasi-travel-online.jpg'
-				/>
+				<meta property='og:url' content='https://surabayadev.vercel.app/' />
+				<meta property='og:title' content='Surabaya Dev' />
+				<meta property='og:description' content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.' />
+				<meta property='og:image' content='https://travel-agent-lovat.vercel.app/surabayadev.png' />
+				<meta property='twitter:card' content='summary_large_image' />
+				<meta property='twitter:url' content='https://surabayadev.vercel.app/' />
+				<meta property='twitter:title' content='Surabaya Dev' />
+				<meta property='twitter:description' content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.' />
+				<meta property='twitter:image' content='https://travel-agent-lovat.vercel.app/surabayadev.png'></meta>
 			</Head>
 			<Header />
 			<Hero />
