@@ -13,25 +13,20 @@ export default function Hero() {
 			<div className='max-w-7xl mx-auto px-4'>
 				<div className='flex'>
 					{/* sebelah kiri hero */}
-					<div className='w-full lg:w-6/12 pt-52'>
-						<h1 className='text-accent-2 font-bold text-sm lg:text-xl uppercase mb-6'>
-                Best Destinations around the world
-						</h1>
-						<h2 className='text-gray-900 font-serif text-4xl lg:text-[84px] leading-tight lg:leading-[84px] tracking-tighter mb-8'>
-                Travel,{''}
+					<div className='w-full lg:w-6/12 pt-60'>
+						<h2 className='w-2/3 lg:w-full text-gray-900 font-serif text-3xl lg:text-[80px] leading-tight lg:leading-[84px] tracking-tighter mb-8'>
 							<span className='relative'>
-                  enjoy
-								<span className='absolute left-0 top-full -mt-3 lg:-mt-8 -ml-4 -z-10'>
-									<DecoreTextUnderline className='w-[100px] lg:w-[385px] h-1 lg:height-[12px] fill-accent-2' />
+                Komunitas IT
+								<span className='absolute left-0 top-full lg:-mt-8 -ml-4 -z-10 transform -translate-y-1 lg:translate-y-4'>
+									<DecoreTextUnderline className='w-[200px] h-1 lg:w-[730px]  lg:h-4 fill-accent-4' />
 								</span>
-							</span>{' '}
-							{''}
-                and live a new and full life
+								{''}
+							</span>
+							{''}Arek Suroboyo {''}
+							Se-Indonesia
 						</h2>
 						<p className='text-gray-500 max-w-lg text-sm lg:text-base leading-6 lg:leading-8 mb-8'>
-                Built Wicket longer admire do barton vanity itself do in it.
-                Preferred to sportsmen it engrossed listening. Park gate sell
-                they west hard for the.
+                SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.
 						</p>
 						<div className='flex'>
 							<Link
@@ -44,18 +39,13 @@ export default function Hero() {
 					</div>
 					{/* sebelah kanan hero */}
 					<div className='hidden lg:block w-[783px] h-[764px] pt-24 relative'>
-						<div className='absolute w-[137px] h-[95px] top-44 left-40 z-30'>
-							<Image width={100} height={100} src='/plane.png' alt='plane' />
-						</div>
-						<div className='absolute w-[137px] h-[95px] top-56 right-6 z-10'>
-							<Image width={100} height={100} src='/plane.png' alt='plane' />
-						</div>
-						<div className='relative z-20 transform -translate-x-16'>
+						<div className='relative z-20 transform translate-x-20 translate-y-32'>
 							<Image
 								priority
-								width={783.87}
-								height={764}
-								src='/hero-traveller.png'
+								layout='responsive'
+								width={750}
+								height={500}
+								src='/hero-surabayadev.png'
 								alt='plane'
 							/>
 						</div>
