@@ -19,7 +19,7 @@ Repositori ini 🔋 dikemas dengan baterai:
 - ✨ TypeScript
 - 💨 Tailwind CSS 3 
 - 📈 Reusable Component Dengan Atomic Design
-
+- 🤖 Meta tag
 ## Cara Menjalankan
 
 ### 1. Clone landing page ini menggunakan cara berikut:
@@ -40,6 +40,20 @@ npm run dev
 👉 http://localhost:1234/ 👈 
 
 <hr>
-4. Deploy to Vercel
+## Link Akses Dan Preview
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter)
+   👉 https://surabayadev.vercel.app/ 👈 
+
+   👉 🔥 Versi Desktop
+    <div align="center">
+    <img src="./public/thumbnail-surabayadev.png" alt="Desktop" width="100%" />
+    </div>
+    👉 🔥 Versi Mobile
+    <div align="center">
+    <img src="./public/mobile-1.png" alt="Desktop" width="35%" />
+    <img src="./public/mobile-2.png" alt="Desktop" width="35%" />
+    <img src="./public/mobile-3.png" alt="Desktop" width="35%" />
+    <img src="./public/mobile-4.png" alt="Desktop" width="35%" />
+    <img src="./public/mobile-5.png" alt="Desktop" width="35%" />
+    <img src="./public/mobile-6.png" alt="Desktop" width="35%" />
+    </div>
