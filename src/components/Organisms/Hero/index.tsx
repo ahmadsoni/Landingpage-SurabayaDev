@@ -45,7 +45,7 @@ export default function Hero() {
 								layout='responsive'
 								width={750}
 								height={500}
-								src='/hero-surabayadev.png'
+								src='/png/hero-surabayadev.png'
 								alt='plane'
 							/>
 						</div>

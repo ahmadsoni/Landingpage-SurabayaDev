@@ -3,6 +3,10 @@ import Logo from 'images/logo.svg';
 import Link from 'next/link';
 export default function Header() {
 	const [menu, setMenu] = useState(false);
+	const [active, setActive] = useState(false);
+	const toggleActive = useCallback(() => {
+		setActive(prev => !prev);
+	}, [setActive]);
 	const toggleMenu = useCallback(() => {
 		setMenu(prev => !prev);
 	}, [setMenu]);
@@ -25,7 +29,7 @@ export default function Header() {
 						</span>
 					</button>
 					<div className={['lg:flex w-auto lg:opacity-100 lg:visible lg:h-auto z-20', menu ? 'flex items-center justify-center h-screen w-full inset-0 opacity-100 visible fixed bg-black' : 'hidden opacity-0 h-0 invisible'].join(' ')}>
-						<ul className='flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0 '>
+						<ul className='flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0 ' onClick={toggleActive}>
 							<li className=''>
 								<Link href='#beranda' className='px-9 text-white lg:text-gray-800'>
                 Beranda
@@ -37,7 +41,12 @@ export default function Header() {
 								</Link>
 							</li>
 							<li className=''>
-								<Link href='#event' className='px-9 text-white lg:text-gray-800'>
+								<Link href='#acara' className='px-9 text-white lg:text-gray-800'>
+                Event
+								</Link>
+							</li>
+							<li className=''>
+								<Link href='#blog' className='px-9 text-white lg:text-gray-800'>
                 Blog
 								</Link>
 							</li>

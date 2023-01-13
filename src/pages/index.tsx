@@ -1,6 +1,12 @@
 import Head from 'next/head';
 import Header from 'components/Organisms/Header';
 import Hero from 'components/Organisms/Hero';
+import Sponsor from 'components/Organisms/Sponsor';
+import VisiMisi from 'components/Organisms/VisiMisi';
+import Acara from 'components/Organisms/Acara';
+import Blog from 'components/Organisms/Blog';
+import Footer from 'components/Organisms/Footer';
+
 export default function Home() {
 	return (
 		<>
@@ -29,6 +35,11 @@ export default function Home() {
 			</Head>
 			<Header />
 			<Hero />
+			<Sponsor />
+			<VisiMisi />
+			<Acara />
+			<Blog />
+			<Footer />
 		</>
 	);
 }
