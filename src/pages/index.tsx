@@ -20,12 +20,12 @@ export default function Home() {
 				<meta property='og:url' content='https://surabayadev.vercel.app/' />
 				<meta property='og:title' content='Surabaya Dev' />
 				<meta property='og:description' content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.' />
-				<meta property='og:image' content='https://travel-agent-lovat.vercel.app/surabayadev.png' />
+				<meta property='og:image' content='https://surabayadev.vercel.app/surabayadev.png' />
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='https://surabayadev.vercel.app/' />
 				<meta property='twitter:title' content='Surabaya Dev' />
 				<meta property='twitter:description' content='SurabayaDev merupakan komunitas IT yang berdomisili di Kota Surabaya yang memiliki agenda kegiatan bertema edukasi teknologi saling bersinergi berkolaborasi.' />
-				<meta property='twitter:image' content='https://travel-agent-lovat.vercel.app/surabayadev.png'></meta>
+				<meta property='twitter:image' content='https://surabayadev.vercel.app/surabayadev.png'></meta>
 			</Head>
 			<Header />
 			<Hero />
